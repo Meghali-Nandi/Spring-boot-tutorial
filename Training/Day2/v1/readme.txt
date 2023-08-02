@@ -1,0 +1,1 @@
+This demonstration uses SpringCloud Openfeign with hardcoded url. 

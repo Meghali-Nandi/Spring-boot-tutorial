@@ -1,0 +1,22 @@
+package com.walmart.api.coupon;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.walmart.api.coupon.dao.CouponDao;
+import com.walmart.api.coupon.models.Coupon;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Application.class, args);
+		Coupon coupon = new Coupon();
+		coupon.setCouponCode("c1");
+		coupon.setDiscount(50);
+		coupon.setId("1");
+		
+		
+		Coupon coupon=container.getBean(CouponDao.class)
+	}
+}

@@ -1,0 +1,15 @@
+package com.walmart.api.dao.impl;
+
+import com.walmart.api.coupon.dao.CouponDao;
+import com.walmart.api.coupon.models.Coupon;
+
+public class CouponJpaDaoImpl implements CouponDao{
+
+	/**
+	 * This method should connect to DB and insert a record to db
+	 */
+	public Coupon saveCoupon(Coupon coupon) {
+	System.out.println("Coupon inserted using jpa");
+	return coupon;
+	}
+}

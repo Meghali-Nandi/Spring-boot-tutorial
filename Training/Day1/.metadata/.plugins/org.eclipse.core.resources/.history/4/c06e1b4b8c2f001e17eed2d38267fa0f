@@ -1,0 +1,6 @@
+Layered architecture is the most common architecture
+The idea is divide the application into fferent components with similar functionalitiesAnd these are rther grouped under same name
+as a result, each layer performs a specific functionality
+
+
+Eg- service, DAO, GUI
