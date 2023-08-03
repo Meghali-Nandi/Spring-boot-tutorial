@@ -1,0 +1,8 @@
+server.port=8888
+spring.application.name=config-server
+eureka.client.service-url.defaultZone=http://localhost:8762/eureka
+#This property switches central repo from git to local file ssytem
+#spring.profiles.active=native 
+#spring.cloud.config.server.native.search-locations=file:C://Training//Day4//v7//localRepo
+spring.cloud.config.server.git.uri=https://github.com/Meghali-Nandi/Spring-boot-tutorial.git
+

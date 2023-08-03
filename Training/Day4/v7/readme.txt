@@ -22,4 +22,11 @@ To do this, each MS must act as client to config server.
 Steps to define config server client-
 1. Add appropriate dependencies in each MS.
 2. add appropriate  properties in application.properties file
-3. 
+
+
+Making any change to any configuration to the Central repo wont be picked up dynamically by MSs. In order to those canges to reflect,  MS needs to restart. 
+This is impractical. Hence we want changes to be picked up dynamically. To so this we have to follow below steps. 
+1. Add actuator dependency in MS. 
+2. Expose refresh endpoint using application.properties. 
+3. Annotate the class which is using this propoerty with @RefreshScope.
+4. Hit post request to http://localhost:<port of MS>/actuator/refresh or http://localhost/order-service/actuator/refresh
