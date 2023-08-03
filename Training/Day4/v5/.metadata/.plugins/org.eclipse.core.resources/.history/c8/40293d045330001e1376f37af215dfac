@@ -1,0 +1,9 @@
+Web application is meant for human consumption
+Web services is meant for application consumption
+
+The most common format of exchanging the data is json
+
+Create a web service, we need to follow below steps-
+1. Create a new class. Annotate this class with @RestController. Create a dependency on springboot-started-web-dependency
+2. Define methods in this class. Annotate respective methods with appropriate annotation.
+3. 

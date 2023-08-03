@@ -1,0 +1,5 @@
+package com.walmart.api.order.rest.response;
+
+public class CouponResponse {
+
+}
