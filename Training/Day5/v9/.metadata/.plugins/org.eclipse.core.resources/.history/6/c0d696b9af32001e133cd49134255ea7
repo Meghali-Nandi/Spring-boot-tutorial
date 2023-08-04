@@ -1,0 +1,5 @@
+package com.walmart.api.eureka.configuration;
+
+public class SecurityConfiguration {
+
+}

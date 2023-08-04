@@ -1,0 +1,57 @@
+Web application is meant for human consumption
+Web services is meant for application consumption
+
+The most common format of exchanging the data is json
+
+Create a web service, we need to follow below steps-
+1. Create a new class. Annotate this class with @RestController. Create a dependency on springboot-started-web-dependency
+2. Define methods in this class. Annotate respective methods with appropriate annotation.
+
+
+
+Monolithic Applications-
+- It is a traditional way of building applications.
+- If all the functionalities exists in a single codebase, it is called as monolithic application.
+- It is a big single codebase application.
+- It is deployed as a single unit. 
+- Drawbacks-
+	It becomes too large in size with time.
+	Even for a small change, we need to redeploy the whole application.
+	Scaling up or scaling down is difficult in monoliths.
+	It is very difficult to adapt to new techs which is well suited for particular functionality.
+	
+- In order to solve these issues, we can divide the application into multiple small independent functionalities based on business. 
+Such application is called as microservice.
+Each MS is developed and deployed independently on separate hardwares
+
+- One microservice must perform one specific single job.
+- Scaling up/down of a specific microservice is possible.
+- A change in one microservice need only redployment of that microservice.
+- other modules of the application are unaffected.
+- We are free to choose appropriate tech for each microservice.
+
+-Imp features of MS-
+	Small autonomous services (based on business functionalities) working together.
+	developed and deployed independently.
+	they are cloud enabled.
+	
+	
+Microservice communication-
+- MS are deployed on separate hardwares, it is very common that they want to communicate. 
+- It is typically done using rest calls.
+- Traditionally rest calls can be done using RestTemplate class given by Spring./
+- Using RestTemplate, we can make rest calls. It is error-prone. Hence we want to make rest calls easier. 
+- To solve this problem, Spring cloud offers OpenFeign library
+- Openfeign makes rest calls declarative.
+
+Steps to use Openfeign-
+- Add appropriate dependency (Openfeign)
+- Create an interface. Annotate this interface with @FeignClient
+- Add appropriate attributes in FeignClient annotation.
+- Declare methods in openfeign - 
+	Signature of the method must match with remote method we are interested in calling. (Method name can be changed)
+	Annotate these methods with exact same annotation matching with the remote methods.
+	
+
+
+

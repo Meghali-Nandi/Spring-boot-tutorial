@@ -1,0 +1,5 @@
+
+server.port=8762
+spring.security.user.name=admin
+spring.security.userspring.application.name=eureka-us
+eureka.client.service-url.defaultZone=http://admin:admin@localhost:8762/eureka,http://admin:admin@localhost:8761/eureka.password=admin

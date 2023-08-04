@@ -1,0 +1,50 @@
+package cm.walmart.api.coupon.aggregate;
+
+import org.axonframework.commandhandling.CommandHandler;
+import org.axonframework.modelling.command.AggregateIdentifier;
+import org.axonframework.spring.stereotype.Aggregate;
+
+import com.walmart.api.coupon.command.CreateCouponCommand;
+
+@Aggregate
+public class CouponAggregate {
+	
+	@AggregateIdentifier
+	private String id;
+	private String couponCode;
+	private Integer discount;
+	
+	
+	public CouponAggregate() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
+	//It is automatically invoked when a specific type of command is dispatched. 
+	@CommandHandler
+	public CouponAggregate(CreateCouponCommand command) {
+		super();
+		this.id = id;
+		this.couponCode = couponCode;
+		this.discount = discount;
+	}
+
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getCouponCode() {
+		return couponCode;
+	}
+	public void setCouponCode(String couponCode) {
+		this.couponCode = couponCode;
+	}
+	public Integer getDiscount() {
+		return discount;
+	}
+	public void setDiscount(Integer discount) {
+		this.discount = discount;
+	}
+}

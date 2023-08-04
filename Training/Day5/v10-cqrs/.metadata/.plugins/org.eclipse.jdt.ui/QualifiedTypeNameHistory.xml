@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestBody"/>
+    <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PostMapping"/>
+    <fullyQualifiedTypeName name="org.axonframework.commandhandling.gateway.CommandGateway"/>
+    <fullyQualifiedTypeName name="org.axonframework.commandhandling.CommandHandler"/>
+    <fullyQualifiedTypeName name="com.walmart.api.coupon.command.CreateCouponCommand"/>
+    <fullyQualifiedTypeName name="org.axonframework.spring.stereotype.Aggregate"/>
+    <fullyQualifiedTypeName name="org.axonframework.modelling.command.AggregateIdentifier"/>
+    <fullyQualifiedTypeName name="org.axonframework.modelling.command.TargetAggregateIdentifier"/>
+    <fullyQualifiedTypeName name="org.axonframework.modelling.command.AggregateLifecycle"/>
+    <fullyQualifiedTypeName name="io.axoniq.axonserver.grpc.event.Event"/>
+    <fullyQualifiedTypeName name="org.axonframework.eventsourcing.EventSourcingHandler"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+    <fullyQualifiedTypeName name="com.walmart.api.coupon.dao.CouponDao"/>
+    <fullyQualifiedTypeName name="com.walmart.api.coupon.event.CouponCreatedEvent"/>
+    <fullyQualifiedTypeName name="org.axonframework.eventhandling.EventHandler"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="org.axonframework.queryhandling.QueryGateway"/>
+    <fullyQualifiedTypeName name="com.walmart.api.coupon.query.FindCouponQuery"/>
+    <fullyQualifiedTypeName name="org.axonframework.messaging.responsetypes.ResponseTypes"/>
+    <fullyQualifiedTypeName name="com.walmart.api.coupon.models.Coupon"/>
+</qualifiedTypeNameHistroy>

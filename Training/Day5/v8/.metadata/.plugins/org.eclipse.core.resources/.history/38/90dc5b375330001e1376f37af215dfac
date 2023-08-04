@@ -1,0 +1,5 @@
+package com.walmart.api.coupon.models;
+
+public class Order {
+
+}

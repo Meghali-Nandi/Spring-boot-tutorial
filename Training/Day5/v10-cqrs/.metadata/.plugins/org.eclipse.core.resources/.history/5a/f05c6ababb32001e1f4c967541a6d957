@@ -1,0 +1,5 @@
+package cm.walmart.api.coupon.aggregate;
+
+public class CouponAggregate {
+
+}

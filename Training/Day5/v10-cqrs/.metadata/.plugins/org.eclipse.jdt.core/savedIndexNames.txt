@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Training\Day5\v10-cqrs\.metadata\.plugins\org.eclipse.jdt.core
+14473621.index
+1865797976.index
+3032428128.index

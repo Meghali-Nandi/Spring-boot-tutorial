@@ -1,0 +1,9 @@
+package com.walmart.api.coupon.command;
+
+public class CreateCouponCommand {
+
+	private String id;
+	private String couponCode;
+	private Integer discount;
+	
+}
